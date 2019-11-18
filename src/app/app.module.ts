@@ -9,9 +9,10 @@ import { UserService } from './user/user.service';
 import { UserAsyncComponent } from './user-async/user-async.component';
 import { GitTestComponentComponent } from './git-test-component/git-test-component.component';
 import { Git2Component } from './git2/git2.component';
+import { AxiosFetchComponent } from './axios-fetch/axios-fetch.component';
 
 @NgModule({
-  declarations: [AppComponent, UserComponent, UserAsyncComponent, GitTestComponentComponent, Git2Component],
+  declarations: [AppComponent, UserComponent, UserAsyncComponent, GitTestComponentComponent, Git2Component, AxiosFetchComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
